@@ -1,0 +1,61 @@
+$color : #ffc400;
+$color1 : #324887;
+html {
+    height: 100%;
+    body {
+        background-image: url(../img/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        #root {
+            height: 100%;
+            #mainLogin {
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                height: 100%;
+                #mainContainer {
+                  width: 30%;
+                  border-radius: 10px;
+                  border: 1px $color solid;
+                  box-shadow: 1px 1px 6px 0px;
+                  background-color: #fffcfcfc;
+                  label {
+                    font-weight: 600;
+                    color: $color1;
+                  }
+                  #Logo {
+                    margin: 16px 0 0 0;
+                    img {
+                      width: 60%;
+                      margin: 0 auto;
+                      display: block;
+                    }
+                  }
+                  .btn-login {
+                    display: block;
+                    font-weight: 600;
+                    margin: 0 auto;
+                    text-transform: uppercase;
+                    color: $color1;
+                    background-color: $color;
+                  }
+                }
+            }
+        }
+        #__react-alert__ {
+            div {
+                div {
+                    div {
+                        background-color: rgb(0 0 0 / 61%) !important;
+                        text-transform : capitalize !important;
+                        font-size: 13px !important;
+                        color: white !important; 
+                    }
+                }
+            }
+        }
+      }
+      
+}
